@@ -1,6 +1,6 @@
 Prism.languages.abc = {
   property: {
-    pattern: /[A-Z](?=\:)/,
+    pattern: /^[A-Z](?=\:)/m,
     lookbehind: true,
     greedy: true
   },

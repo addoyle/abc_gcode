@@ -1,0 +1,11 @@
+body {
+  min-height: 100vh;
+}
+div.prism-live {
+  flex: 1;
+  border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+.prism-live .code-toolbar,
+.prism-live .code-toolbar pre {
+  min-height: 100%;
+}
